@@ -1,83 +1,105 @@
-/* Home Page Styles */
+/* Global Styles */
 .home-page {
-    font-family: "Arial", sans-serif;
-  }
-  
-  /* Hero Section */
-  .hero {
-    background: url("https://via.placeholder.com/1200x400") no-repeat center;
-    background-size: cover;
-    padding: 80px 0;
-    text-align: center;
-    color: white;
-  }
-  
-  .hero-banner {
-    background: rgba(0, 0, 0, 0.6);
-    padding: 20px;
-    border-radius: 10px;
-  }
-  
-  .hero h1 {
-    font-size: 36px;
-    font-weight: bold;
-  }
-  
-  .hero p {
-    font-size: 18px;
-    margin-bottom: 15px;
-  }
-  
-  /* Category Section */
-  .category-section {
-    padding: 40px 0;
-  }
-  
-  .category-section h2 {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .category-card {
-    text-align: center;
-    border: none;
-    transition: 0.3s;
-  }
-  
-  .category-card:hover {
-    transform: scale(1.05);
-  }
-  
-  /* Popular Products */
-  .popular-products {
-    padding: 40px 0;
-    background-color: #f8f9fa;
-  }
-  
-  .popular-products h2 {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .product-card {
-    text-align: center;
-    border: none;
-    transition: 0.3s;
-  }
-  
-  .product-card:hover {
-    transform: scale(1.05);
-  }
-  
-  /* Footer */
-  .footer {
-    background-color: #343a40;
-    color: white;
-    padding: 15px 0;
-    margin-top: 30px;
-  }
-  
-  .footer p {
-    margin: 0;
-  }
-  
+  font-family: "Arial", sans-serif;
+  background-color: #ffffff;
+}
+
+/* Search Bar */
+.search-bar {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px;
+  padding-left:20px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  font-size: 16px;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.hero-img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Seasonal Fruits Section */
+.seasonal-fruits, .popular-fruits {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.seasonal-fruits h2, .popular-fruits h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Horizontal Scroll */
+.horizontal-scroll {
+  display: flex;
+  overflow-x: auto;
+  padding-bottom: 10px;
+}
+
+.horizontal-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.fruit-card {
+  text-align: center;
+  border: none;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  margin-bottom: 20px;
+}
+
+.fruit-card:hover {
+  transform: scale(1.05);
+}
+
+.fruit-card img {
+  border-radius: 10px;
+}
+
+/* "See All" Button */
+.see-all-btn {
+  margin-top: 20px;
+}
+
+.see-all-btn button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 25px;
+}
+
+/* Footer */
+.footer {
+  background-color: #1abc9c;
+  color: white;
+  padding: 30px 0;
+}
+
+.footer h4, .footer h5 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer p {
+  font-size: 14px;
+}
+
+.footer .social-icons i {
+  font-size: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}

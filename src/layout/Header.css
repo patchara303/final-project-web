@@ -1,6 +1,45 @@
 .custom-navbar {
-    background-color: #A0C878;
-    /* border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px; */
-    padding: 10px;
-}
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .brand-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .text-highlight {
+    color: #50c89d; /* Greenish color */
+  }
+  
+  .icon-link {
+    color: black;
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon-link:hover {
+    color: #50c89d;
+  }
+  
+  .dropdown-toggle-custom {
+    border: none;
+    background: none;
+    color: black;
+    font-size: 1rem;
+  }
+  
+  .dropdown-toggle-custom::after {
+    display: none; /* Removes default Bootstrap dropdown arrow */
+  }
+  
+  .navbar-nav .nav-link {
+    color: black;
+    font-size: 1rem;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #50c89d;
+  }
+  
