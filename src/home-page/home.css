@@ -1,0 +1,83 @@
+/* Home Page Styles */
+.home-page {
+    font-family: "Arial", sans-serif;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: url("https://via.placeholder.com/1200x400") no-repeat center;
+    background-size: cover;
+    padding: 80px 0;
+    text-align: center;
+    color: white;
+  }
+  
+  .hero-banner {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  /* Category Section */
+  .category-section {
+    padding: 40px 0;
+  }
+  
+  .category-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .category-card {
+    text-align: center;
+    border: none;
+    transition: 0.3s;
+  }
+  
+  .category-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Popular Products */
+  .popular-products {
+    padding: 40px 0;
+    background-color: #f8f9fa;
+  }
+  
+  .popular-products h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .product-card {
+    text-align: center;
+    border: none;
+    transition: 0.3s;
+  }
+  
+  .product-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #343a40;
+    color: white;
+    padding: 15px 0;
+    margin-top: 30px;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
